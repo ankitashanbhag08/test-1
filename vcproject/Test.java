@@ -4,4 +4,9 @@ Class someClass{
 function printOut(String print){
 	system.out.println(print);
 };
+
+	public static void main(String[] args) {
+        System.out.println( args[0] );
+        System.out.println( args[1] );
+    }
 }
